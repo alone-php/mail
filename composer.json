@@ -1,0 +1,19 @@
+{
+  "name":"alone-php/mail",
+  "type":"library",
+  "license":"MIT",
+  "version":"1.0.0",
+  "description":"发送邮件",
+  "require":{
+    "php":">=8.0"
+  },
+  "autoload":{
+    "psr-4":{
+      "AlonePhp\\Mail\\":"src/",
+      "AlonePack\\PHPMailer\\PHPMailer\\":"package/phpmailer/src/"
+    },
+    "files":[
+      "function.php"
+    ]
+  }
+}
